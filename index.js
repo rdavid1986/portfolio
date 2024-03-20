@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+/* document.addEventListener("DOMContentLoaded", (event) => {
     console.log("DOM fully loaded and parsed");
 });
 async function loadContent(url) {
@@ -29,4 +29,4 @@ contact.addEventListener("click", (event) => {
     event.preventDefault();
     console.log("click on contact ")
     loadContent("./pages/contact.html");
-})
+}) */
