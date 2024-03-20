@@ -12,10 +12,10 @@ async function loadContent(url) {
 
 
 const about = document.getElementById("about");
-about.addEventListener("click",async (event) => {
+about.addEventListener("click",(event) => {
     event.preventDefault();
     console.log("click on about ")
-    await loadContent("./pages/about.html");
+    loadContent("./pages/about.html");
 })
 
 const portfolio = document.getElementById("portfolio");
