@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     console.log("DOM fully loaded and parsed");
 });
 async function loadContent(url) {
-    await fetch(url)
+    fetch(url)
         .then(response => response.text())
         .then(html => {
             document.querySelector(".mainContainer").innerHTML = html;
