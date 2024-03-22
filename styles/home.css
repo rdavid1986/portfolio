@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 0 0 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.imgDeveloper{
+    height: 250px;
+    border-radius: 5%;
+}
+.technologies{
+    margin: 30px ;
+}
+.technologies p{
+    margin: 30px ;
+}
+.html{
+    color:orangered
+}
+.css{
+    color:blue;
+}
+.js{
+    color: yellow
+}
+.Languages {
+    font-size: 40px;;
+}
+
+.frontend{
+    font-size: 60px;
+}
+.animationTypingContainer{
+    display: inline-block;
+}
+.animationTyping{
+    border-right: 5px solid; 
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    animation:
+        typing 2.5s steps(20),
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{ border-color: transparent }
+}
+@keyframes typing {
+    from { width: 0 }
+}

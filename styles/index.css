@@ -11,42 +11,13 @@ body {
     flex-wrap: wrap;
     height: auto;
     min-height: 100vh;
+    background-color : black;
 }
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    font-size: 30px;
-}
-.divGreeting{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    height:100px;
-    width:300px;
-    
-}
-.navContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 55px;
-    font-size: 30px;
-}
-.opacity{
-    opacity: 1;
-    transition: opacity 1830ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.opacity:hover {
-    opacity: 0.5;
 }
 main{
     flex-grow: 1;
@@ -59,29 +30,38 @@ main{
     flex-direction: column;
 }
 
-.dinamicDiv{
+section{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     height: auto;
 }
-.imgDeveloper{
-    height: 400px;
-    border-radius: 5%;
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
 }
-.technologies{
-    display: block;
-    margin: 50px ;
+
+.navContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-size: 30px;
 }
-.html{
-    color:orangered
+.opacity{
+    opacity: 1;
+    transition: opacity 1830ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.css{
-    color:blue;
+.opacity:hover {
+    opacity: 0.5;
 }
-.js{
-    color: yellow
-}
+
+
 .form{
     display: flex;
     flex-direction: column;
@@ -105,36 +85,11 @@ main{
     text-align: center;
     border-radius: 2%;
 }
-.htmlCssJs {
-    font-size: 40px;;
-}
 
-.frontend{
-    font-size: 60px;
-}
-.animationTypingContainer{
-    display: inline-block;
-}
-.animationTyping{
-    border-right: 5px solid;
-    overflow: hidden;
-    width: 100%;
-    white-space: nowrap;
-    animation:
-        typing 2.5s steps(20),
-        cursor .4s step-end infinite alternate;
-
-}
-@keyframes cursor {
-    50%{ border-color: transparent }
-}
-@keyframes typing {
-    from { width: 0 }
-}
 .about{
     max-width: 60%;
 }
-.dinamicDivAbout{
+.sectionAbout{
     display: flex;
     gap: 40px;
     flex-direction: column;

@@ -1,0 +1,48 @@
+@media (max-width: 950px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        text-decoration: none;
+    }
+    body {
+        width: auto;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: nowrap;
+        background-color : black;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .navContainer{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .logo{
+        align-items: flex-start;
+        font-size: 30px;
+        margin-top: 30px
+    }
+    .animationTyping{
+        font-size: 25px;
+    }
+    .technologies{
+        font-size: 20px;
+    }
+    .imgDeveloper{
+        margin-top: 30px;
+        height: 100px;
+    }
+    
+}
