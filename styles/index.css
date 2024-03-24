@@ -27,7 +27,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    display: flex;
     flex-direction: column;
 }
 
@@ -61,42 +60,11 @@ section{
 .opacity:hover {
     opacity: 0.5;
 }
-
-
-.form{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    background-color: rgba(7, 69, 203, 0.242);
-    padding:50px;
-    width: 900px;
-    align-items: center;
-}
-.form input{
-    background-color: rgba(20, 78, 203, 0.242);
-    border-radius: 5%;
-    margin: 10px;
-}
-.textArea{
-    margin-top: 30px;
-    padding:15px;
-    height: 200px;
-    width: 500px;
-    background-color: rgba(20, 78, 203, 0.242);
-    text-align: center;
-    border-radius: 2%;
+.mainContainer{
+    padding:0;
 }
 
-.about{
-    max-width: 60%;
-}
-.sectionAbout{
-    display: flex;
-    gap: 40px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.aboutH{
-    font-size: 40px;
-}
+
+
+
+

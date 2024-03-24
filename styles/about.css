@@ -1,0 +1,24 @@
+
+.about{
+    max-width: 60%;
+}
+.sectionAbout{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutH{
+    font-size: 40px;
+}
+/* About */
+@media (max-width: 1090px) {
+    .aboutImg {
+        max-width: 100%;
+        padding:0;
+    }
+    .sectionAbout{
+        padding:0;
+    }
+}

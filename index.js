@@ -30,3 +30,4 @@ contact.addEventListener("click", (event) => {
     console.log("click on contact ")
     loadContent("./pages/contact.html");
 }) */
+

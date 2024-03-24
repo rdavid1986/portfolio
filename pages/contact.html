@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
-    <title>Contact</title>
-    <link rel="stylesheet" href="../styles/index.css" />
-    <link rel="stylesheet" href="../styles/queries.css">
-</head>
-<body>
-    <header>
-        <a href="#" class="logo opacity">David.</a>
+        <title>Contact</title>
+        <link rel="stylesheet" href="../styles/index.css" />
+        <link rel="stylesheet" href="../styles/queries.css" />
+        <link rel="stylesheet" href="../styles/contact.css" />
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo opacity">David.</a>
 
-        <div class="navContainer">
-            <a href="../index.html" id="index" class="navText opacity">
-                <strong>Home</strong>
-            </a>
-            <a href="./about.html" id="about" class="navText opacity">
-                <strong>About</strong>
-            </a>
-            <a href="./portfolio.html" id="portfolio" class="navText opacity">
-                <strong>Portfolio</strong>
-            </a>
-            <a href="#Contact" id="contact" class="navText opacity">
-                <strong>Contact</strong>
-            </a>
-        </div>
-    </header>
-    <main class="mainContainer">
-    <h1>I look forward to your message</h1>
-    <form action="" class="form">
-        <label for="name">Full name</label>
-        <input type="text" id="name" />
-        <label for="email">Email Address</label>
-        <input type="text" id="email" />
-        <label for="phone">Mobile Number</label>
-        <input type="text" id="phone" />
-        <label for="subject">Email Subject</label>
-        <input type="text" id="phone" />
-        <label for="subject">Email Subject</label>
-        <input type="text" id="phone" />
-        <textarea name="textarea" class="textArea">
-    Write your message here</textarea
-        >
-    </form>
-    </main>
-</body>
-<script src="index.js"></script>
+            <div class="navContainer">
+                <a href="../index.html" id="index" class="navText opacity">
+                    <strong>Home</strong>
+                </a>
+                <a href="./about.html" id="about" class="navText opacity">
+                    <strong>About</strong>
+                </a>
+                <a
+                    href="./portfolio.html"
+                    id="portfolio"
+                    class="navText opacity"
+                >
+                    <strong>Portfolio</strong>
+                </a>
+                <a href="#Contact" id="contact" class="navText opacity">
+                    <strong>Contact</strong>
+                </a>
+            </div>
+        </header>
+        <main class="mainContainer">
+            <h1>I look forward to your message</h1>
+            
+            <form id="form" class="form">
+                <div class="field">
+                    <label for="name">Full name</label>
+                    <input type="text" name="from_name" id="from_name" />
+                </div>
+                <div class="field">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" />
+                </div>
+                <div class="field">
+                    <label for="phone">Mobile Number</label>
+                <input type="text" id="phone" />
+                </div>
+               
+                <div class="field">
+                    <textarea name="message" id="message" class="textArea">
+                        Write your message here</textarea>
+                </div>
+                
+
+                <input type="submit" id="button" value="Send Email" />
+            </form>
+            
+        </main>
+    </body>
+    <script src="../index.js"></script>
+    
+   
+      
 </html>

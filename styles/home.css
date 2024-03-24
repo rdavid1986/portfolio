@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding:0 0 0 0;
+    padding: 0;
     text-decoration: none;
     scroll-behavior: smooth;
 }
@@ -43,11 +43,25 @@
     white-space: nowrap;
     animation:
         typing 2.5s steps(20),
-        cursor .3s step-end infinite alternate;
+        cursor .50s step-end infinite alternate;
 }
 @keyframes cursor {
     50%{ border-color: transparent }
 }
 @keyframes typing {
     from { width: 0 }
+}
+@media (max-width: 950px) {
+  
+    .animationTyping{
+        font-size: 25px;
+    }
+    .technologies{
+        font-size: 20px;
+    }
+    .imgDeveloper{
+        margin-top: 30px;
+        height: 100px;
+    }
+    
 }
