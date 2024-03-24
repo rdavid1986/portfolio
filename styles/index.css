@@ -16,8 +16,9 @@ body {
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100px;
+    padding: 10px;
 }
 main{
     flex-grow: 1;
@@ -35,7 +36,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
 }
 .logo{
