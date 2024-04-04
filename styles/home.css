@@ -5,6 +5,9 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+}
 .imgDeveloper{
     height: 250px;
     border-radius: 5%;
@@ -12,9 +15,10 @@
 .technologies{
     max-width: 1000px ;
     margin: 30px ;
-}
-.technologies p{
-    margin: 30px ;
+    & p{
+        margin: 30px ;
+        color: white;
+    }
 }
 .Languages {
     font-size: 40px;;
@@ -35,6 +39,7 @@
 }
 .animationTypingContainer{
     display: inline-block;
+    color: white;
 }
 .animationTyping{
     border-right: 5px solid; 
@@ -58,6 +63,9 @@
     }
     .technologies{
         font-size: 20px;
+        & p {
+            color: white;
+        }
     }
     .imgDeveloper{
         margin-top: 30px;
